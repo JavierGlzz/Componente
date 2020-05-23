@@ -1,0 +1,16 @@
+section{
+  display: flex;
+  border: 2px solid salmon;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.subtitulo > p {
+  font-weight: bold
+}
+.numero > p{
+  border: 2px solid yellowgreen;
+  border-radius: 100%;
+  background-color: lightblue;
+}
