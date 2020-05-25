@@ -1,7 +1,13 @@
 section {
-  display: flex;
   border: 2px solid salmon;
-  flex-flow: row wrap;
+}
+
+.boton {
+  align-self: center;
+  height: 50px;
+  width: 250px;
+  border: 1px solid black;
+  background-color: #AF4C4C;
 }
 
 .numero > p {
@@ -15,13 +21,4 @@ section {
 
 .bold {
   font-weight: bold
-}
-
-
-.boton {
-  align-self: center;
-  height: 50px;
-  width: 250px;
-  border: 1px solid black;
-  background-color: #AF4C4C;
 }
